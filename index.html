@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordelizando</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        max-width: 100vw;
+    }
+
+    header {
+        padding: 10px;
+        margin: 0px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        min-height: 150px;
+        max-width: 100vw;
+    }
+
+    header h1 {
+        margin: 30px auto 10px auto;
+        font-family: "Passion One", sans-serif;
+        font-size: 6em;
+    }
+
+    header p {
+        font-size: 1.1em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .versos {
+        margin-top: 20px;
+        padding: 30px;
+        max-width: 700px;
+        font-size: 3em;
+        line-height: 70px;
+        font-family: "Winky Rough", sans-serif;
+    }
+
+
+    .versos-content {
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        max-width: 700px;
+        font-size: 3em;
+        line-height: 70px;
+        font-family: "Winky Rough", sans-serif;
+    }
+
+    div.container {
+        max-height: 900px;
+        padding: 20px 10px 20px 20px;
+        background-color: black;
+    }
+
+    div.container#cont1 {
+        background-image: url(imgs/flores.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    div.container#cont2 {
+        background-image: url(imgs/cartas.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    div.content {
+        background-color: rgba(0, 0, 0, 0.74);
+        color: white;
+        max-width: 600px;
+        max-height: 600px;
+    }
+
+    footer {
+        background-color: black;
+        text-align: center;
+        margin: 0px;
+        padding: 1px;
+    }
+
+    footer p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color: white;
+    }
+
+    footer a {
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+</style>
+<body>
+    <header>
+        <h1>Cordel Moderno</h1>
+        <p>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a></p>
+    </header>
+
+    <article>
+        <p class="versos">
+            Estou ficando cansado <br>
+            Da tal tecnologia <br>
+            Só se fala por e-mail <br>
+            Mensagem curta e fria <br>
+            Twitter e Facebook <br>
+            Antes que eu caduque <br>
+            Vou dizer tudo em poesia.
+        </p>
+        <div class="container" id="cont1">
+            <div class="content">
+                <p class="versos-content">
+                    Não é mais como era antes <br>
+                    É tudo abreviado <br>
+                    "Você" só tem duas letras <br>
+                    O "O" e o "E" foi riscado <br>
+                    Para declarar o amor <br>
+                    Basta botar uma flor <br>
+                    E um coração desenhado. <br>
+                </p>
+            </div>
+        </div>
+        <p class="versos">
+            Arroba agora não pesa <br>
+            É parte de um endereço <br>
+            Ponto final nem se usa <br>
+            Ou vai até no começo <br>
+            Agora é .com <br>
+            Se o saite é muito bom <br>
+            Ele vale um alto preço. <br>
+        </p>
+        <p class="versos">
+            Pra piorar a liguagem <br>
+            O emoticom é um risco <br>
+            Tem símbolo para tudo <br>
+            Ponto e vírgula e um asterisco <br>
+            Um beijo significa <br>
+            Pra entender como fica <br>
+            Decifre esse rabisco. <br>
+        </p>
+        <div class="container" id="cont2">
+            <div class="content">
+                <p class="versos-content">
+                    Tenho saudade das cartas <br>
+                    Escritas com a própria mão <br>
+                    Mandava no mês de Junho <br>
+                    Só chegava no Verão <br>
+                    Mas matava a saudade <br>
+                    Era texto de verdade <br>
+                    Nas linhas do coração. <br>
+                </p>
+            </div>
+        </div>
+        <p class="versos">
+            Agora, escrevo e envio <br>
+            Chegando na mesma hora <br>
+            Mas quando vou prosear <br>
+            A pessoa foi embora <br>
+            Abriu outro aplicativo <br>
+            O mundo ficou cativo <br>
+            Da tecnologia do agora. <br>
+        </p>
+        <p class="versos">
+            Felizmente, pra orar <br>
+            Não precisa de internet <br>
+            Deus escuta todo mundo <br>
+            Se quiser, faça esse teste <br>
+            Dois pontos são dois joelhos <br>
+            Seus lábios são aparelhos <br>
+            Deixe que Deus interprete. <br>
+        </p>
+    </article>
+
+    <footer><p>Site criado por <a href="#">Mateus Marques</a> para o <a href="#">CursoemVídeo</a></p></footer>
+</body>
+</html>
